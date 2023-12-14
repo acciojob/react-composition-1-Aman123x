@@ -16,7 +16,7 @@ const Tabs=({tabData})=>{
             </ul>
             <div>
                 {
-                    activeTab && <p>{activeTab.content}</p>
+                    <p>{activeTab.content}</p>
                 }
             </div>
         </div>
